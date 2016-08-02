@@ -1,0 +1,27 @@
+{
+  "name": "digitalmarkets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server 8080",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalMarkets/digitalmarket.nl.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DigitalMarkets/digitalmarket.nl/issues"
+  },
+  "homepage": "https://github.com/DigitalMarkets/digitalmarket.nl#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "jsonfile": "^2.3.1"
+  }
+}
